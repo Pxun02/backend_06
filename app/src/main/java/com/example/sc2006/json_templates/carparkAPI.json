@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "timestamp": "2022-10-12T02:17:26.489Z",
+      "carpark_data": [
+        {
+          "carpark_number": "string",
+          "carpark_info": [
+            {
+              "total_lots": "string",
+              "lot_type": "string",
+              "lots_available": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+    "MyAccount": [{
+        "user_id": 88888,
+        "name": "Name",
+        "email": "email@email.com",
+        "first_name": "First",
+        "last_name": "Last",
+        "password": "pwwww"
+    }],
+
+    "MyHistory": [{
+        "history_id": 88888,
+        "user_id": 88888,
+        "carpark_id": 88888,
+        "created_at": "Time"
+    }],
+
+    "MyFavourite": [{
+        "favourite_id": 88888,
+        "user_id": 88888,
+        "carpark_id": 88888,
+        "created_at": "Time"
+    }],
+
+    "CommentRate": [{
+        "comment_id": 88888,
+        "rate_id": 88888,
+        "carpark_id": 88888,
+        "user_id": 88888,
+        "comment": "Comment",
+        "rate": 8,
+        "created_at": "Time"
+    }],
+
+    "UserPhoto": [{
+        "photo_id": 88888,
+        "user_id": 88888,
+        "photo": ".png"
+    }]
+}

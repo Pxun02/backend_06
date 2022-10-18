@@ -1,0 +1,9 @@
+{
+    "timestamp" : "string",
+    "carpark_data": [{
+        "carpark_number": "string",
+        "total_lots": "string",
+        "lot_type": "string",
+        "lots_available": "string"
+    }]
+}

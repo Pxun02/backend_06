@@ -1,0 +1,9 @@
+{
+    "comment_id": 88888,
+    "rate_id": 88888,
+    "carpark_id": 88888,
+    "user_id": 88888,
+    "comment": "Comment",
+    "rate": 8,
+    "created_at": "Time"
+}

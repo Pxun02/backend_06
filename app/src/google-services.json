@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "204602359691",
+    "firebase_url": "https://carpark-milkshake-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "carpark-milkshake",
+    "storage_bucket": "carpark-milkshake.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204602359691:android:45f0abe332b970d1d1b98e",
+        "android_client_info": {
+          "package_name": "com.example.sc2006"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204602359691-fatbv7fql4pmbq6urg3u8rq73hvgl2dv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5IE2ubHjiC81iKD_4s51BZUKdSR73ZlQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204602359691-fatbv7fql4pmbq6urg3u8rq73hvgl2dv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
