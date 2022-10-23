@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.example.sc2006'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.example.sc2006"
         minSdk 26
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -32,6 +32,7 @@ android {
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'androidx.activity:activity:1.6.0'
     implementation 'com.google.android.material:material:1.6.1'
     implementation 'com.google.firebase:firebase-database:20.1.0'
     implementation 'com.google.firebase:firebase-common-ktx:20.2.0'
@@ -40,4 +41,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation platform('com.google.firebase:firebase-bom:31.0.0')
     implementation 'commons-io:commons-io:2.11.0'
+    implementation 'com.google.firebase:firebase-storage'
+    implementation 'com.google.android.gms:play-services-auth:20.3.0'
+    implementation 'com.google.firebase:firebase-auth'
 }

@@ -2,7 +2,7 @@ package com.example.sc2006;
 
 public class MyAccount {
     
-    public int user_id;
+    public String user_id;
     public String name;
     public String email;
     public String first_name;
@@ -13,7 +13,7 @@ public class MyAccount {
         // Default constructor required for calls to DataSnapshot.getValue(User.class)
     }
 
-    public MyAccount(int user_id, String name, String email, String first_name, String last_name, String password) {
+    public MyAccount(String user_id, String name, String email, String first_name, String last_name, String password) {
         this.user_id = user_id;
         this.name = name;
         this.email = email;
