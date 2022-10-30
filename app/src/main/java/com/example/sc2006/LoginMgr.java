@@ -36,7 +36,7 @@ public class LoginMgr extends DialogFragment {
     }
 
     @SuppressWarnings("ThrowableResultOfMethodCallIgnored")
-    public int verifyCredentials(String user_id, String email, String password){
+    public int verifyCredentials(String email, String password){
         DatabaseReference mDatabase = FirebaseDatabase
                 .getInstance("https://carpark-milkshake-default-rtdb.asia-southeast1.firebasedatabase.app/")
                 .getReference();
@@ -52,7 +52,7 @@ public class LoginMgr extends DialogFragment {
             public void onDataChange(DataSnapshot snapshot){
                 MyAccount myaccountPtr[] = new MyAccount[1];
                 for(DataSnapshot postDatasnapshot : snapshot.getChildren()){
-                    if(postDatasnapshot.child("user_id").getValue() == user_id) {
+                    if(postDatasnapshot.child("email").getValue() == email) {
                         myaccountPtr[0] = postDatasnapshot.getValue(MyAccount.class);
                     }
                 }
